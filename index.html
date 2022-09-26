@@ -71,7 +71,7 @@
               </script>
             </td>
             <td style="padding:20px;width:75%;vertical-align:middle">
-              <a href="https://yifanjiang.net/MalleConv.html">
+<!--               <a href="https://yifanjiang.net/MalleConv.html"> -->
                 <papertitle>Designing and developing a novel deep computer vision platform for intraoperative prediction and analytics</papertitle>
               </a>
               <br>
@@ -81,17 +81,55 @@
               Peter Madsen,<br>
               John Lee,Jianbo Shi, Vivek Buch
               <br>
-              <em>ECCV</em>, 2022
+              <em>Congress of Neurosurgeons Annual Meeting</em>, 2022
               <br>
               <a href="">project page</a>
-              /
               <p></p>
               <p>
-              We denoise images efficiently by predicting spatially-varying kernels at low resolution and using a fast fused op to jointly upsample and apply these kernels at full resolution.
-              </p>
+		In this study, we aim to design and develop an AI based computer vision architecture for automated pixelwise object prediction, tracking, and novel analytics during endoscopic skull base surgery.
+		In a sparse labeling paradigm, we design and develop a custom deep computer vision-based instance segmentation architecture to predict and track anatomical structures and surgical objects with high accuracy. We create a novel metric, the “pulsatility index”, which is able to quantify the nerve-artery interface for the first time.
+		    </p>
             </td>
           </tr>
 
+          <tr onmouseout="malle_stop()" onmouseover="malle_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='malle_image'>
+                  <img src='images/MalleConv_after.jpg' width="160"></div>
+                <img src='images/MalleConv_before.jpg' width="160">
+              </div>
+              <script type="text/javascript">
+                function malle_start() {
+                  document.getElementById('malle_image').style.opacity = "1";
+                }
+
+                function malle_stop() {
+                  document.getElementById('malle_image').style.opacity = "0";
+                }
+                malle_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+<!--               <a href="https://yifanjiang.net/MalleConv.html"> -->
+                <papertitle>Automated Line labelling of 3D Printed Models for Dataset and Vision Applications</papertitle>
+              </a>
+              <br>
+              <strong>Nehal Doiphode*</strong>,
+              Hari Santhanam*, 
+              Jianbo Shi
+              <br>
+              <em>Under submission</em>, 2022
+              <br>
+              <a href="">project page</a>
+              <p></p>
+              <p>
+		Understanding the finer details of a 3D object, its contours, is the first step toward a physical understanding of an object. Many real-world application domains require adaptable 3D object shape recognition models, usually with little training data. For this purpose, we developed the first automatically generated contour labeled dataset, bypassing manual human labeling. Using this dataset, we study the performance of current state-of-the-art instance segmentation algorithms on detecting and labeling the contours. We produce promising visual results with accurate contour prediction and labeling. We demonstrate that our finely labeled contours can help downstream tasks in computer vision, such as 3D reconstruction from a 2D image.
+		    </p>
+            </td>
+          </tr>
+		
+		
         </tbody></table>
 
 				
